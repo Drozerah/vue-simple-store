@@ -1,6 +1,6 @@
-# vue-simple-store
+# Vue.js Simple Store
 
-> Create a Vue.js simple store
+![Simple store image](url)
 
 ## Build Setup
 

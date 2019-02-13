@@ -1,6 +1,6 @@
 # Vue.js Simple Store
 
-![Simple store image](url)
+![Simple store image](https://raw.githubusercontent.com/Drozerah/vue-simple-store/master/src/assets/vue-simple-store.gif)
 
 ## Build Setup
 

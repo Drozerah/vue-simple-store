@@ -7,11 +7,11 @@
 
 <script>
 // import store instance
-import Store from '../myStore.js'
+import Store from '../store'
 
     export default {
-        methods: { 
-            increment: () => Store.increment()       
+        methods: {
+            increment: () => Store.increment()
         }
     }
 </script>

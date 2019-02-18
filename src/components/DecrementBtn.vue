@@ -7,11 +7,11 @@
 
 <script>
 // import store instance
-import Store from '../myStore.js'
+import Store from '../store'
 
     export default {
         methods: {
-            decrement: () => Store.decrement()          
+            decrement: () => Store.decrement()
         }
     }
 </script>

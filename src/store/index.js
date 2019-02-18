@@ -6,6 +6,7 @@ class Store {
         }
     }
 
+    // methods
     increment(){ this.state.count++ }
 
     decrement(){ this.state.count-- }

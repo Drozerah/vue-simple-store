@@ -2,9 +2,9 @@
   <div id="app" class="appVue">
     <h1>Vue.js Simple Store</h1>
     <p>State management store based on a class instance shared between multiple components</p>
-    <div>      
+    <div>
       <div class="flex-container">
-        <p>myStore.js => {{ store }}</p>
+        <p>src/store/index.js => {{ store }}</p>
       </div>
       <div class="flex-container">
         <IncrementBtn/>
@@ -12,12 +12,12 @@
         <RestoreBtn/>
       </div>
     </div>
-    
+
   </div>
 </template>
 
 <script>
-import Store from './myStore.js'
+import Store from './store'
 import IncrementBtn from './components/IncrementBtn.vue'
 import DecrementBtn from './components/DecrementBtn.vue'
 import RestoreBtn from './components/RestoreBtn.vue'
@@ -30,13 +30,10 @@ export default {
   },
   data(){
     return {
-
       store: Store
-
     }
   }
 }
-
 </script>
 
 <style lang="scss">
@@ -61,20 +58,16 @@ body{
     }
   }
 }
-
 h1, h2 {
   font-weight: normal;
   font-size: 30px;
 }
-
 h2{
   font-size: 18px;
 }
-
 .appVue{
   padding: 10px;
 }
-
 .card{
     width:240px;
     padding: 10px 10px 25px 10px;

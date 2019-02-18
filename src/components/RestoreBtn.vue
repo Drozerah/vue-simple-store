@@ -7,14 +7,14 @@
 
 <script>
 // import store instance
-import Store from '../myStore.js'
+import Store from '../store'
 
     export default {
-        methods: {  
-            restore: () => Store.restore()       
+        methods: {
+            restore: () => Store.restore()
         },
         computed: {
-            isDisabled: () =>  Store.state.count != 0 ? false : true 
+            isDisabled: () =>  Store.state.count != 0 ? false : true
         }
     }
 </script>
